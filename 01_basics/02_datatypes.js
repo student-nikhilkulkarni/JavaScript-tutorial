@@ -4,7 +4,7 @@
 
 console.log(3+3) //code readability should be high
 
-console.log("Hello") //standards rules ECMA script
+console.log("Hello") //standards rules ECMA script tc39.es
 
 
 let name ="nikhil"
