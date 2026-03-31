@@ -7,8 +7,7 @@ let anothername = myname
 anothername = "PramodKumar"
 
 console.log(myname);//nikhilkulkarni
-console.log(anothername);//pramodkumar  as value change here 
-// in one storage only
+console.log(anothername);//pramodkumar  (as value change here in one storage only)
 
 //heap(here we get reference)
 let user1 = {
@@ -21,6 +20,5 @@ let user2 = user1
 
 user2.email = "nikhil@google.com"
 
-console.log(user1);//nikhil@google.com (both changes as
-//  here reference is used)
+console.log(user1);//nikhil@google.com (both changes as here reference is used)
 console.log(user2);//nikhil@google.com
