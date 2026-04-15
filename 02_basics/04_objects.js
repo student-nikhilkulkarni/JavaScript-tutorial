@@ -53,9 +53,33 @@ users[1].email
 //console.log(Object.keys(tinderUser)); //return the keys of tinderuser in an array format
 //console.log(Object.values(tinderUser));//return the values of tinderuser in an array format
 
-console.log(Object.entries(tinderUser)); //return the saperate key value pair in an array
+//console.log(Object.entries(tinderUser)); //return the saperate key value pair in an array
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //hasOwnProperty is the method that says whether it has that property or not and retuen boolean values
+//console.log(tinderUser.hasOwnProperty('isLoggedIn')); //hasOwnProperty is the method that says whether it has that property or not and retuen boolean values
 
 
 
+/************************ De-structuring */
+
+const course ={
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+// {
+//     name: "hitesh",
+//     coursename: "js in hindi",
+//     Fees: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
